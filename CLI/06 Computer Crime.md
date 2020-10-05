@@ -1,29 +1,36 @@
----
-title: '06 Computer Crime'
-disqus: hackmd
----
 
-:::info
-ST2504 Computer Law & Investigation
-:::
 
 Lecture 06 Computer Crime
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 06 Computer Crime](#lecture-06-computer-crime)
+  * [Background](#background)
+    + [Objectives of CMA](#objectives-of-cma)
+  * [Cybersecurity Act (Act 9 of 2018)](#cybersecurity-act--act-9-of-2018-)
+    + [CMA vs CA 2018](#cma-vs-ca-2018)
+  * [Offences](#offences)
+    + [Section 3 - Unauthorised access to comp material](#section-3---unauthorised-access-to-comp-material)
+      - [Examples](#examples)
+    + [Section 4 - access with intent to commit/facilitate commission of offence](#section-4---access-with-intent-to-commit-facilitate-commission-of-offence)
+      - [Examples](#examples-1)
+    + [Section 5 - unauthorised modification of comp material](#section-5---unauthorised-modification-of-comp-material)
+      - [Example](#example)
+    + [Section 6 - unauthorised use or interception of comp service](#section-6---unauthorised-use-or-interception-of-comp-service)
+      - [Example](#example-1)
+    + [Section 7 - unauthorised obstruction of use of comp](#section-7---unauthorised-obstruction-of-use-of-comp)
+      - [Example](#example-2)
+    + [Section 8 -  unauthorised disclosure of access code](#section-8----unauthorised-disclosure-of-access-code)
+    + [Section 8A - supplying etc. personal info obtained in contravention of certain provisions](#section-8a---supplying-etc-personal-info-obtained-in-contravention-of-certain-provisions)
+    + [Section 8B - obtaining etc. items for use in certain offences](#section-8b---obtaining-etc-items-for-use-in-certain-offences)
+    + [Section 9 - enhanced punishment for offences involving protected comps](#section-9---enhanced-punishment-for-offences-involving-protected-comps)
+    + [Section 10 - abetment & attempts punishable as offences](#section-10---abetment---attempts-punishable-as-offences)
+    + [Section 11 - territorial nature of CMA](#section-11---territorial-nature-of-cma)
+  * [Mitigating Factors](#mitigating-factors)
 
 Background
 ---

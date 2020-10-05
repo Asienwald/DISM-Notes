@@ -1,29 +1,47 @@
----
-title: '02 Windows Configurations & Active Directory Basics'
-disqus: hackmd
----
 
-:::info
-ST2612 Secure Microsoft Windows
-:::
 
 02 Windows Configuration & Active Directory Basics
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [02 Windows Configuration & Active Directory Basics](#02-windows-configuration---active-directory-basics)
+  * [Using Server Manager](#using-server-manager)
+    + [Installing & Remove Server Roles](#installing---remove-server-roles)
+    + [Best Practices Analyser (BPA) for Server Roles](#best-practices-analyser--bpa--for-server-roles)
+      - [Guidelines](#guidelines)
+      - [General Steps](#general-steps)
+  * [Using System File Checker](#using-system-file-checker)
+    + [Verify System & Critical Files with Sigverif](#verify-system---critical-files-with-sigverif)
+  * [Understanding the Windows Server 2016 Registry](#understanding-the-windows-server-2016-registry)
+    + [Data contained in Registry](#data-contained-in-registry)
+    + [Precautions when Working with Registry](#precautions-when-working-with-registry)
+  * [Registry Contents](#registry-contents)
+    + [HKEY_LOCAL_MACHINE](#hkey-local-machine)
+    + [HKEY_CURRENT_USER](#hkey-current-user)
+    + [HKEY_USERS](#hkey-users)
+    + [HKEY_CLASSES_ROOT](#hkey-classes-root)
+    + [HKEY_CURRENT_CONFIG](#hkey-current-config)
+    + [Backing up Registry](#backing-up-registry)
+  * [Active Directory Basics](#active-directory-basics)
+    + [Understanding Active Dir](#understanding-active-dir)
+      - [Schema](#schema)
+      - [Global Catalog](#global-catalog)
+      - [Namespace](#namespace)
+    + [Active Directory Structure](#active-directory-structure)
+    + [Containers in Active Directory](#containers-in-active-directory)
+      - [Forests](#forests)
+      - [Tree](#tree)
+      - [Domain](#domain)
+      - [Organisational Unit (OU)](#organisational-unit--ou-)
+      - [Site](#site)
+    + [Active Dir Guidelines](#active-dir-guidelines)
+  * [Security Configuration Wizard](#security-configuration-wizard)
+    + [SCW Can...](#scw-can)
+    + [Components](#components)
 
 Using Server Manager
 ---

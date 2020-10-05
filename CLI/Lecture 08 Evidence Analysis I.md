@@ -1,29 +1,43 @@
----
-title: 'Lecture 08 Evidence Analysis I'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 08 Evidence Analysis I
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 08 Evidence Analysis I](#lecture-08-evidence-analysis-i)
+  * [Introduction](#introduction)
+    + [The Evidence Act](#the-evidence-act)
+  * [Burden of Proof](#burden-of-proof)
+    + [Facts in Issue](#facts-in-issue)
+    + [Legal Burden of Proof](#legal-burden-of-proof)
+    + [Evidential Burden of Proof](#evidential-burden-of-proof)
+  * [Standard of Proof](#standard-of-proof)
+    + [Standard of Proof - Criminal](#standard-of-proof---criminal)
+    + [Standard of Proof - Civil](#standard-of-proof---civil)
+    + [Beyond Reasonable Doubt](#beyond-reasonable-doubt)
+    + [Balance of probabilities](#balance-of-probabilities)
+  * [Circumstantial Evidence & Relevant Facts](#circumstantial-evidence---relevant-facts)
+      - [Example](#example)
+    + [Relevant Facts](#relevant-facts)
+      - [Sections](#sections)
+    + [Example/Illustration](#example-illustration)
+  * [Similar Fact Evidence](#similar-fact-evidence)
+      - [Example](#example-1)
+    + [Rule Against Hearsay](#rule-against-hearsay)
+      - [Rationale](#rationale)
+  * [Admissions & Confessions](#admissions---confessions)
+    + [Admissions](#admissions)
+    + [Confessions](#confessions)
+      - [Issue of Admissibility](#issue-of-admissibility)
+  * [Corrobation](#corrobation)
+    + [Admissibility VS Weight of Evidence](#admissibility-vs-weight-of-evidence)
+    + [When Accused Lies](#when-accused-lies)
+  * [Privilege](#privilege)
+
 
 Introduction
 ---

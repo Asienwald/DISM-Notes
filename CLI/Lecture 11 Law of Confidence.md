@@ -1,29 +1,22 @@
----
-title: 'Lecture 11 Law of Confidence'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 11 Law of Confidence
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 11 Law of Confidence](#lecture-11-law-of-confidence)
+  * [Law of Confidence](#law-of-confidence)
+    + [Information must be Confidential](#information-must-be-confidential)
+    + [Obligation of Confidence](#obligation-of-confidence)
+    + [Unauthorised Use](#unauthorised-use)
+  * [Liability](#liability)
+    + [Civil Liability](#civil-liability)
+    + [Criminal Liability](#criminal-liability)
+      - [Examples](#examples)
 
 
 Law of Confidence

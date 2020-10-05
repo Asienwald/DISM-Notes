@@ -1,29 +1,55 @@
----
-title: 'Lecture 06 Wireless Security'
-disqus: hackmd
----
 
-:::info
-ST1004 Infocomm Security
-:::
 
 Lecture 06 Wireless Security
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 06 Wireless Security](#lecture-06-wireless-security)
+  * [Wireless Attacks](#wireless-attacks)
+    + [Bluetooth Attacks](#bluetooth-attacks)
+      - [Bluejacking](#bluejacking)
+      - [Bluesnarfing](#bluesnarfing)
+    + [Near Field Communication (NFC) Attacks](#near-field-communication--nfc--attacks)
+      - [Example of NFC Applications](#example-of-nfc-applications)
+      - [Types of Attacks](#types-of-attacks)
+    + [Radio Frequency Identification (RFID) Attacks](#radio-frequency-identification--rfid--attacks)
+      - [Types of Attacks](#types-of-attacks-1)
+    + [Wireless Local Area Networks Attacks](#wireless-local-area-networks-attacks)
+      - [IEEE WLANs](#ieee-wlans)
+      - [WLAN Hardware](#wlan-hardware)
+      - [Types of Attacks](#types-of-attacks-2)
+  * [WLAN Enterprise Attacks](#wlan-enterprise-attacks)
+    + [Rogue Access Point](#rogue-access-point)
+    + [Evil Twin](#evil-twin)
+    + [Intercepting Wireless Data](#intercepting-wireless-data)
+    + [Wireless Replay Attack](#wireless-replay-attack)
+    + [Wireless Denial of Service Attack](#wireless-denial-of-service-attack)
+    + [Wireless Home Attacks](#wireless-home-attacks)
+  * [Vulnerabilites of IEEE Wireless Security](#vulnerabilites-of-ieee-wireless-security)
+    + [Wired Equivalent Privacy (WEP)](#wired-equivalent-privacy--wep-)
+    + [Wired Protected Setup (WPS)](#wired-protected-setup--wps-)
+    + [MAC Address Filtering](#mac-address-filtering)
+    + [SSID Broadcasting](#ssid-broadcasting)
+  * [Wireless Security Solutions](#wireless-security-solutions)
+    + [Wifi Protected Access (WPA)](#wifi-protected-access--wpa-)
+      - [Temporal Key Integrity Protocol (TKIP) Encryption](#temporal-key-integrity-protocol--tkip--encryption)
+      - [Preshared Key (PSK) Authentication](#preshared-key--psk--authentication)
+      - [WPA Vulnerabilities](#wpa-vulnerabilities)
+    + [WPA2](#wpa2)
+      - [AES-CCMP Encryption](#aes-ccmp-encryption)
+    + [IEEE 802.1x Authentication](#ieee-8021x-authentication)
+      - [Extensible Authentication Protocol (EAP)](#extensible-authentication-protocol--eap-)
+  * [More Wireless Security Protections](#more-wireless-security-protections)
+    + [Rogue AP System Detection](#rogue-ap-system-detection)
+    + [AP Types](#ap-types)
+      - [Fat vs Thin APs](#fat-vs-thin-aps)
+      - [Standalone vs Controller APs](#standalone-vs-controller-aps)
+      - [Captive Portal APs](#captive-portal-aps)
+    + [AP Configuration & Device Options](#ap-configuration---device-options)
+  * [Chapter Summary](#chapter-summary)
 
 
 Wireless Attacks

@@ -1,29 +1,36 @@
----
-title: 'Lecture 05 Crytographic Hash'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Crytography
-:::
 
 Lecture 05 Cryptographic Hash
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 05 Cryptographic Hash](#lecture-05-cryptographic-hash)
+  * [Security != Encryption](#security----encryption)
+    + [Possible Attacks](#possible-attacks)
+    + [Requirements of Message Security](#requirements-of-message-security)
+    + [Encryption](#encryption)
+    + [Tools for Msg Auth](#tools-for-msg-auth)
+  * [Hash](#hash)
+    + [Hash Algo Requirements](#hash-algo-requirements)
+    + [Merkle-Damgard Construction](#merkle-damgard-construction)
+    + [Known Hash Algos](#known-hash-algos)
+    + [Simple Hash Functions](#simple-hash-functions)
+    + [Applications of Hash Algos](#applications-of-hash-algos)
+      - [Requirements](#requirements)
+  * [Secure Hash Algo (SHA)](#secure-hash-algo--sha-)
+    + [Revised SHA (SHA-2)](#revised-sha--sha-2-)
+    + [SHA-512](#sha-512)
+      - [Processing](#processing)
+      - [Round Function](#round-function)
+      - [Message Expansion](#message-expansion)
+    + [Comparison of SHA Functions](#comparison-of-sha-functions)
+  * [Attacks](#attacks)
+    + [Problem Statement](#problem-statement)
+      - [Birthday Attacks](#birthday-attacks)
+      - [Birthday Paradox](#birthday-paradox)
 
 Security != Encryption
 ---

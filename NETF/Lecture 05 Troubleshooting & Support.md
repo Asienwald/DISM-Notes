@@ -1,29 +1,54 @@
----
-title: 'Lecture 05 Troubleshooting & Support'
-disqus: hackmd
----
 
-:::info
-ST1010 Networking Fundamentals
-:::
 
 Lecture 05 Troubleshooting & Support
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 05 Troubleshooting & Support](#lecture-05-troubleshooting---support)
+  * [Documenting Your Network](#documenting-your-network)
+      - [Documentation & Troubleshooting](#documentation---troubleshooting)
+      - [Documentatin & IT Staffing](#documentatin---it-staffing)
+      - [Documentation & Standards Compliance](#documentation---standards-compliance)
+      - [Documentation & Technical Support](#documentation---technical-support)
+      - [Documentation & Security](#documentation---security)
+    + [Change Management](#change-management)
+    + [What to Document?](#what-to-document-)
+  * [Problem Solving Process](#problem-solving-process)
+    + [Step 1 - Determine Prob Definition & Scope](#step-1---determine-prob-definition---scope)
+    + [Step 2 - Gather Info](#step-2---gather-info)
+    + [Step 3 - Consider Possible Causes](#step-3---consider-possible-causes)
+    + [Step 4 - Devise Solution](#step-4---devise-solution)
+    + [Step 5 - Implement Solution](#step-5---implement-solution)
+    + [Step 6 - Test Solution](#step-6---test-solution)
+    + [Step 7 - Document Solution](#step-7---document-solution)
+    + [Step 8 - Devise Preventive Measures](#step-8---devise-preventive-measures)
+  * [Approaches to Network Troubleshooting](#approaches-to-network-troubleshooting)
+    + [Trial & Error](#trial---error)
+    + [Solve by Example](#solve-by-example)
+    + [Replacement Method](#replacement-method)
+    + [Step by Step with OSI Model](#step-by-step-with-osi-model)
+  * [Problem-Solving Resources](#problem-solving-resources)
+    + [Experience](#experience)
+    + [Internet](#internet)
+    + [Network Documentation](#network-documentation)
+  * [Network Troubleshooting Tools](#network-troubleshooting-tools)
+    + [Ping & Tracert](#ping---tracert)
+    + [Network Monitors](#network-monitors)
+    + [Protocol Analysers](#protocol-analysers)
+    + [Time-Domain Reflectometer (TDR)](#time-domain-reflectometer--tdr-)
+    + [Basic Cable Testers](#basic-cable-testers)
+    + [Advanced Cable Testers](#advanced-cable-testers)
+    + [Additional Tools](#additional-tools)
+  * [Common Troubleshooting Situations](#common-troubleshooting-situations)
+  * [Disaster Recovery](#disaster-recovery)
+    + [Backing Up Network Data](#backing-up-network-data)
+    + [Backup Types](#backup-types)
+      - [Backup Schedule](#backup-schedule)
+    + [Business Continuity](#business-continuity)
+  * [Chapter Summary](#chapter-summary)
 
 Documenting Your Network
 ---

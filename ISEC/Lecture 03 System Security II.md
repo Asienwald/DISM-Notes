@@ -1,29 +1,23 @@
----
-title: 'Lecture 03 System Security II'
-disqus: hackmd
----
 
-:::info
-ST1004 Infocomm Security
-:::
 
 ISEC Lecture 03 System Security II
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [ISEC Lecture 03 System Security II](#isec-lecture-03-system-security-ii)
+  * [Client Security](#client-security)
+    + [Hardware System Security](#hardware-system-security)
+    + [Securing OS Software](#securing-os-software)
+  * [Physical Security](#physical-security)
+    + [External Perimeter Defenses](#external-perimeter-defenses)
+    + [Internal Physical Access Security](#internal-physical-access-security)
+    + [Computer Hardware Security](#computer-hardware-security)
+  * [Application Security](#application-security)
+    + [Virtualisation](#virtualisation)
+  * [Chapter Summary](#chapter-summary)
 
 Client Security
 ---

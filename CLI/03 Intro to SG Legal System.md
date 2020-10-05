@@ -1,29 +1,39 @@
----
-title: '03 Intro to SG Legal System'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 CLI Lecture 03 Intro to SG Legal System
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [CLI Lecture 03 Intro to SG Legal System](#cli-lecture-03-intro-to-sg-legal-system)
+  * [Classification of Law](#classification-of-law)
+    + [Criminal Law](#criminal-law)
+      - [Who's who](#who-s-who)
+    + [Civil Law](#civil-law)
+      - [Who's who](#who-s-who-1)
+    + [Civil & criminal wrong](#civil---criminal-wrong)
+    + [Sources of SG law](#sources-of-sg-law)
+  * [Constitution of SG](#constitution-of-sg)
+    + [Legislature](#legislature)
+    + [Executive](#executive)
+    + [Judiciary](#judiciary)
+  * [Statutes](#statutes)
+    + [Purposes of legislation](#purposes-of-legislation)
+    + [Legislative process](#legislative-process)
+  * [Case Law](#case-law)
+    + [Doctrine of Binding Precedents](#doctrine-of-binding-precedents)
+      - [How it work?](#how-it-work-)
+    + [How did SG law originate](#how-did-sg-law-originate)
+      - [English law](#english-law)
+  * [Hierarchy of SG Courts](#hierarchy-of-sg-courts)
+    + [Jurisdiction of Courts](#jurisdiction-of-courts)
+    + [Magistrates Court](#magistrates-court)
+    + [High court](#high-court)
+    + [Court of appeal](#court-of-appeal)
+  * [Alternative Dispute Resolution](#alternative-dispute-resolution)
+    + [Criminal procedure](#criminal-procedure)
 
 Classification of Law
 ---

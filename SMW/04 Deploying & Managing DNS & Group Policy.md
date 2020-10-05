@@ -1,29 +1,54 @@
----
-title: '04 Deploying & Managing DNS & Group Policy'
-disqus: hackmd
----
 
-:::info
-ST2612 Secure Microsoft Windows
-:::
 
 Topic 04 Deploying & Managing DNS & Group Policy
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Topic 04 Deploying & Managing DNS & Group Policy](#topic-04-deploying---managing-dns---group-policy)
+  * [Implementing Microsoft DNS](#implementing-microsoft-dns)
+    + [DNS Zones](#dns-zones)
+      - [DNS Resource Records](#dns-resource-records)
+    + [Using DNS Dynamic Update Protocol](#using-dns-dynamic-update-protocol)
+    + [DNS Replication](#dns-replication)
+    + [How does DNS Queries Work?](#how-does-dns-queries-work-)
+    + [Stub Zone](#stub-zone)
+    + [Additional DNS Server Roles](#additional-dns-server-roles)
+      - [Forwarder Approach](#forwarder-approach)
+      - [Caching Server](#caching-server)
+    + [Forwarder VS Root Hints](#forwarder-vs-root-hints)
+    + [Creating DNS Implementation Plan](#creating-dns-implementation-plan)
+    + [DNS Enhancement in Win Server 2016](#dns-enhancement-in-win-server-2016)
+    + [Troubleshooting DNS](#troubleshooting-dns)
+    + [DNS Threats](#dns-threats)
+    + [Securing Windows DNS Server](#securing-windows-dns-server)
+  * [Using Microsoft Baseline Security Analyser](#using-microsoft-baseline-security-analyser)
+    + [Application](#application)
+  * [Microsoft Security Compliance Manager](#microsoft-security-compliance-manager)
+  * [Overview of Security Features in WinServer 2016](#overview-of-security-features-in-winserver-2016)
+  * [Introduction to Group Policy](#introduction-to-group-policy)
+    + [Config Settings](#config-settings)
+  * [Securing WinServer2016 Using Security Policies](#securing-winserver2016-using-security-policies)
+    + [Establishing Account Policies](#establishing-account-policies)
+      - [Password Security](#password-security)
+      - [Account Lockout](#account-lockout)
+      - [Kerberos Security](#kerberos-security)
+    + [Establishing Audit Policies](#establishing-audit-policies)
+    + [Configuring User Rights](#configuring-user-rights)
+      - [Examples of Privileges](#examples-of-privileges)
+      - [Examples of Logon Rights](#examples-of-logon-rights)
+    + [Configuring Security Options](#configuring-security-options)
+    + [Settings Under User Configuration](#settings-under-user-configuration)
+  * [Policy Application Order & Troubleshooting](#policy-application-order---troubleshooting)
+    + [Group Policy Predence](#group-policy-predence)
+      - [Example](#example)
+    + [Special Configuration Options](#special-configuration-options)
+    + [More Examples](#more-examples)
+      - [Avoid Complexity in Group Policies](#avoid-complexity-in-group-policies)
+    + [Resulttant Set of Policy (RSoP) & gpresult](#resulttant-set-of-policy--rsop----gpresult)
 
 Implementing Microsoft DNS 
 ---

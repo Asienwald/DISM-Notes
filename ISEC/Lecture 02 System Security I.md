@@ -1,29 +1,33 @@
----
-title: 'Lecture 02 System Security I'
-disqus: hackmd
----
+
 
 Lecture 02 System Security I
 ===
 
-:::info
-ST1004 Infocomm Security
-:::
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 02 System Security I](#lecture-02-system-security-i)
+  * [Malware](#malware)
+  * [Circulation Malware](#circulation-malware)
+    + [Virus](#virus)
+    + [Worms](#worms)
+  * [Infection Malware](#infection-malware)
+    + [Trojan](#trojan)
+    + [Ransomware](#ransomware)
+    + [Crypto-Malware](#crypto-malware)
+  * [Concealment Malware](#concealment-malware)
+    + [Rootkits](#rootkits)
+  * [Payload Capabilities](#payload-capabilities)
+    + [Collect Data](#collect-data)
+    + [Delete Data](#delete-data)
+    + [Modify System Security](#modify-system-security)
+    + [Launch Attacks](#launch-attacks)
+  * [Social Engineering Attacks](#social-engineering-attacks)
+    + [Psychological Approaches](#psychological-approaches)
+    + [Physical Procedures](#physical-procedures)
+  * [Chapter Summary](#chapter-summary)
 
 
 Malware

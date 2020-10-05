@@ -1,29 +1,25 @@
----
-title: 'Lecture 10 Corporate Investigation'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 10 Corporate Investigation
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 10 Corporate Investigation](#lecture-10-corporate-investigation)
+  * [Criminal VS Corporate Investigation](#criminal-vs-corporate-investigation)
+    + [Criminal Investigation](#criminal-investigation)
+      - [Private Criminal Investigation](#private-criminal-investigation)
+    + [Corporate Investigation](#corporate-investigation)
+  * [Sources of Law](#sources-of-law)
+    + [ISO 17799](#iso-17799)
+      - [Objectives](#objectives)
+      - [Contents](#contents)
+    + [User Policy Agreement (UPA)](#user-policy-agreement--upa-)
+      - [Common UPA](#common-upa)
+  * [Balancing Security & Privacy](#balancing-security---privacy)
 
 
 Criminal VS Corporate Investigation

@@ -1,29 +1,34 @@
----
-title: 'Lecture 11 Secure Electronic Transaction (SET)'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 11 Secure Electronic Transaction (SET)
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 11 Secure Electronic Transaction (SET)](#lecture-11-secure-electronic-transaction--set-)
+  * [Impt for EST](#impt-for-est)
+    + [Lecture 01 Classical Ciphers](#lecture-01-classical-ciphers)
+    + [Lecture 02 DES](#lecture-02-des)
+    + [Lecture 03 AES](#lecture-03-aes)
+    + [Lecture 07 Digital Signatures](#lecture-07-digital-signatures)
+    + [Lecture 09](#lecture-09)
+    + [Lecture 10 PGP](#lecture-10-pgp)
+    + [Lecture 11 SET](#lecture-11-set)
+  * [Review Questions](#review-questions)
+    + [Blind Signature](#blind-signature)
+  * [Secure Electronic Transations (SET)](#secure-electronic-transations--set-)
+    + [SET Components](#set-components)
+    + [SET Transaction](#set-transaction)
+    + [Dual Signature](#dual-signature)
+      - [How it works](#how-it-works)
+    + [SET Purchase Request](#set-purchase-request)
+      - [Purchase Request - Merchant](#purchase-request---merchant)
+      - [Purchase Request - Customer](#purchase-request---customer)
+    + [Payment Gateway Authorisation](#payment-gateway-authorisation)
+    + [Payment Capture](#payment-capture)
+  * [Summary](#summary)
 
 Impt for EST
 ---

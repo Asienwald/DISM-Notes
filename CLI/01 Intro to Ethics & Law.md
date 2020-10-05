@@ -1,28 +1,22 @@
----
-title: '01 Intro to Ethics & Law'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law and Investigation
-:::
 
 CLI Lecture 01 Intro to Ethics & Law
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
-[TOC]
+- [CLI Lecture 01 Intro to Ethics & Law](#cli-lecture-01-intro-to-ethics---law)
+  * [Law & Ethics](#law---ethics)
+    + [Background](#background)
+    + [Law](#law)
+    + [Morality & Ethics](#morality---ethics)
+  * [Ethical Reasoning](#ethical-reasoning)
+    + [Consequence-Based Reasoning](#consequence-based-reasoning)
+    + [Rule-Based Reasoning](#rule-based-reasoning)
+      - [Example](#example)
+  * [Ethics and IT](#ethics-and-it)
+  * [Not by Legislation Alone](#not-by-legislation-alone)
 
 
 Law & Ethics

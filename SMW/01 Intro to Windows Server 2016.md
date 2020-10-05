@@ -1,29 +1,56 @@
----
-title: '01 Intro to Windows Server 2016'
-disqus: hackmd
----
 
-:::info
-ST8091 Securing Microsoft Windows
-:::
 
 01 Intro to Windows Server 2016
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [01 Intro to Windows Server 2016](#01-intro-to-windows-server-2016)
+  * [Focus Areas](#focus-areas)
+  * [Secure Computing](#secure-computing)
+    + [Needs for it](#needs-for-it)
+    + [Microsoft's Commitment to Security](#microsoft-s-commitment-to-security)
+      - [Isolation & Resiliency](#isolation---resiliency)
+      - [Software Updates](#software-updates)
+      - [Quality](#quality)
+      - [Access Control & Auth](#access-control---auth)
+  * [Trustworthy Computing](#trustworthy-computing)
+    + [Requirements](#requirements)
+    + [Dimensions where Microsoft's Objective of Trustworthy Computing Relies](#dimensions-where-microsoft-s-objective-of-trustworthy-computing-relies)
+      - [Microsoft Security Initiative Update 2015](#microsoft-security-initiative-update-2015)
+    + [Trusted Cloud](#trusted-cloud)
+    + [Secure Code](#secure-code)
+      - [Common Language Runtime](#common-language-runtime)
+  * [Windows Server 2016 Editions](#windows-server-2016-editions)
+    + [Windows Server 2016 Essentials Edition](#windows-server-2016-essentials-edition)
+    + [Windows Server 2016 Standard Edition](#windows-server-2016-standard-edition)
+      - [Hyper-V](#hyper-v)
+    + [Windows Server 2016 Datacenter Edition](#windows-server-2016-datacenter-edition)
+  * [Using Windows Server 2016 with Client Systems](#using-windows-server-2016-with-client-systems)
+    + [Linux Integration Services (LIS)](#linux-integration-services--lis-)
+    + [Advantages of using Windows Server 2016 with Windows 7-10](#advantages-of-using-windows-server-2016-with-windows-7-10)
+    + [Terminology](#terminology)
+  * [Windows Server 2016 Features](#windows-server-2016-features)
+    + [Server Manager](#server-manager)
+    + [Security](#security)
+    + [Enhanced Web Services](#enhanced-web-services)
+    + [Windows Server Cor & Nano Server](#windows-server-cor---nano-server)
+      - [Windows Server Core](#windows-server-core)
+      - [Windows Nano Server](#windows-nano-server)
+    + [Windows Powershell](#windows-powershell)
+    + [Reliability](#reliability)
+      - [Terminology](#terminology-1)
+  * [Planning Windows Server 2016 Networking Model](#planning-windows-server-2016-networking-model)
+    + [Peer-to-Peer Networking](#peer-to-peer-networking)
+    + [Server-based Networking](#server-based-networking)
+  * [Protocols for Windows Server 2016 Networking Model](#protocols-for-windows-server-2016-networking-model)
+    + [Transmission Control Protocol (TCP)](#transmission-control-protocol--tcp-)
+    + [Physical Address & Address Resolution Protocol (ARP)](#physical-address---address-resolution-protocol--arp-)
+    + [Implementing TCP/IP in Windows Server 2016](#implementing-tcp-ip-in-windows-server-2016)
+    + [Automated Address Configuration](#automated-address-configuration)
+  * [Summary](#summary)
 
 Focus Areas
 ---

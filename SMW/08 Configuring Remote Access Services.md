@@ -1,29 +1,39 @@
----
-title: '08 Configuring Remote Access Services'
-disqus: hackmd
----
 
-:::info
-ST2612 Secure Microsoft Windows
-:::
 
 08 Configuring Microsoft Windows
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
-
-[TOC]
+- [08 Configuring Microsoft Windows](#08-configuring-microsoft-windows)
+  * [Introduction to Remote Access](#introduction-to-remote-access)
+    + [Using Remote Access Protocols](#using-remote-access-protocols)
+      - [Point-to-Point Tunneling Protocol (PPTP)](#point-to-point-tunneling-protocol--pptp-)
+      - [Layer 2 Tunnneling Protocol (L2TP)](#layer-2-tunnneling-protocol--l2tp-)
+      - [Secure Socket Tunneling Protocol (SSTP)](#secure-socket-tunneling-protocol--sstp-)
+      - [Internet Key Exchange Version 2 Protocol (IKE v2)](#internet-key-exchange-version-2-protocol--ike-v2-)
+  * [Implementing Virtual Private Network](#implementing-virtual-private-network)
+      - [Examples](#examples)
+    + [Configuring a VPN Server](#configuring-a-vpn-server)
+    + [Configuring Server's Firewall](#configuring-server-s-firewall)
+    + [Configuring VPN Properties](#configuring-vpn-properties)
+    + [Configuring DHCP Relay Agent](#configuring-dhcp-relay-agent)
+    + [Configuring VPN Security](#configuring-vpn-security)
+      - [Establishing Remote Access Policy](#establishing-remote-access-policy)
+    + [Monitoring VPN Users](#monitoring-vpn-users)
+    + [Troubleshooting VPN Installations](#troubleshooting-vpn-installations)
+      - [Hardware Solutions](#hardware-solutions)
+      - [Software Solutions](#software-solutions)
+  * [Remote Desktop Services](#remote-desktop-services)
+    + [Connecting through Remote Desktop Services](#connecting-through-remote-desktop-services)
+      - [RemoteApp](#remoteapp)
+    + [Uses & Purposes](#uses---purposes)
+    + [Installing Remote Desktop Services](#installing-remote-desktop-services)
+    + [Configuring Remote Desktop Services](#configuring-remote-desktop-services)
+    + [Build-In Remote Desktop Services](#build-in-remote-desktop-services)
+    + [Accessing RDS Server from Client](#accessing-rds-server-from-client)
+  * [Summary](#summary)
 
 Introduction to Remote Access
 ---

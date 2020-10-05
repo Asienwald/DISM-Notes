@@ -1,29 +1,23 @@
----
-title: 'Lecture 06 Message Auth Code'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 06 Message Auth Code
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 06 Message Auth Code](#lecture-06-message-auth-code)
+  * [Message Auth Code (MAC)](#message-auth-code--mac-)
+    + [MAC Function Requirements](#mac-function-requirements)
+    + [MAC Application](#mac-application)
+    + [Keyed Hash Function as MAC](#keyed-hash-function-as-mac)
+  * [Hash-based MAC](#hash-based-mac)
+    + [Overview](#overview)
+    + [HMAC Security](#hmac-security)
+  * [Using Symmetric Ciphers for MACs](#using-symmetric-ciphers-for-macs)
+    + [Data Auth Algo (DAA)](#data-auth-algo--daa-)
+  * [Summary](#summary)
 
 Message Auth Code (MAC)
 ---

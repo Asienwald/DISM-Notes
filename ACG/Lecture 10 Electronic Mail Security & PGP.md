@@ -1,29 +1,32 @@
----
-title: 'Lecture 10 Electronic Mail Security & PGP'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Crypto
-:::
 
 Lecture 10 Electronic Mail Security & PGP
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 10 Electronic Mail Security & PGP](#lecture-10-electronic-mail-security---pgp)
+  * [Electronic Mail Security](#electronic-mail-security)
+  * [Pretty Good Privacy (PGP)](#pretty-good-privacy--pgp-)
+    + [Reason for Popularity](#reason-for-popularity)
+    + [Features](#features)
+    + [Public Keys](#public-keys)
+    + [Private Keys](#private-keys)
+  * [Operation of PGP](#operation-of-pgp)
+    + [Digital Signature](#digital-signature)
+      - [Sample](#sample)
+    + [Message Encryption](#message-encryption)
+      - [Encryption Process](#encryption-process)
+      - [Sample](#sample-1)
+      - [Digital Signature & Message Encryption](#digital-signature---message-encryption)
+    + [Compression](#compression)
+    + [Radix-64 Conversion](#radix-64-conversion)
+    + [Segmentation & Reassembly](#segmentation---reassembly)
+  * [Summary PGP](#summary-pgp)
+    + [Order of Operations](#order-of-operations)
+    + [Summary](#summary)
 
 Electronic Mail Security
 ---

@@ -1,29 +1,29 @@
----
-title: 'Lecture 07 Digital Signatures'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 07 Digital Signatures
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 07 Digital Signatures](#lecture-07-digital-signatures)
+  * [Digital Signature](#digital-signature)
+    + [Requirements](#requirements)
+    + [Application](#application)
+    + [How it Works](#how-it-works)
+  * [Types of Digital Signatures](#types-of-digital-signatures)
+    + [Direct Digital Signatures](#direct-digital-signatures)
+    + [Arbitrated Digital Signatures](#arbitrated-digital-signatures)
+  * [Digital Signature Schemes](#digital-signature-schemes)
+    + [Mechanism of Signature Schemes](#mechanism-of-signature-schemes)
+    + [Digital Signature Standard (DSS)](#digital-signature-standard--dss-)
+    + [Digital Signature Algorithm (DSA)](#digital-signature-algorithm--dsa-)
+      - [Key Generation](#key-generation)
+      - [Signing](#signing)
+      - [Verification](#verification)
+  * [Summary](#summary)
 
 Digital Signature
 ---

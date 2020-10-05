@@ -1,29 +1,39 @@
----
-title: 'Lecture 04 Access Control'
-disqus: hackmd
----
 
-:::info
-ST1004 Infocomm Security
-:::
 
 Lecture 04 Access Control
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 04 Access Control](#lecture-04-access-control)
+  * [Authentication Credentials](#authentication-credentials)
+  * [What you know - Passwords](#what-you-know---passwords)
+    + [Offline attacks on passwords](#offline-attacks-on-passwords)
+    + [Password Security](#password-security)
+  * [What you have - Tokens, Cards and Phones](#what-you-have---tokens--cards-and-phones)
+    + [Tokens](#tokens)
+    + [Cards](#cards)
+    + [Cell Phones](#cell-phones)
+  * [What you are - Biometrics](#what-you-are---biometrics)
+    + [Standard Biometrics](#standard-biometrics)
+    + [Cognitive Biometrics](#cognitive-biometrics)
+  * [Where you are - Geolocation](#where-you-are---geolocation)
+  * [Access Control](#access-control)
+    + [Terminology](#terminology)
+    + [Access Control Models](#access-control-models)
+      - [Discretionary Access Control (DAC)](#discretionary-access-control--dac-)
+      - [Mandatory Access Control (MAC)](#mandatory-access-control--mac-)
+      - [Role-Based Access Control](#role-based-access-control)
+      - [Rule-Based Access Control](#rule-based-access-control)
+      - [Attribute-Based Access Control (ABAC)](#attribute-based-access-control--abac-)
+    + [Best Practices](#best-practices)
+      - [Separation of Duties](#separation-of-duties)
+      - [Job Rotation](#job-rotation)
+      - [Mandatory Vacations](#mandatory-vacations)
+      - [Clean Desk Policy](#clean-desk-policy)
+  * [Chapter Summary](#chapter-summary)
 
 
 Authentication Credentials

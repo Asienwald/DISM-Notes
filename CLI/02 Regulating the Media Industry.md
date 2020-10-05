@@ -1,29 +1,28 @@
----
-title: '02 Regulating the Media Industry'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 02 Regulating the Media Industry
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 02 Regulating the Media Industry](#lecture-02-regulating-the-media-industry)
+  * [Overview](#overview)
+    + [Role of SG Media](#role-of-sg-media)
+    + [IMDA](#imda)
+    + [Principles of Censorship](#principles-of-censorship)
+  * [Regulatory Framework](#regulatory-framework)
+    + [Statutory Regulation](#statutory-regulation)
+      - [Example](#example)
+      - [Sedition Act (Cap 290)](#sedition-act--cap-290-)
+      - [Official Secrets Act (Cap 213)](#official-secrets-act--cap-213-)
+      - [Films Act (Cap 107)](#films-act--cap-107-)
+      - [Newspaper & printing access act (cap 206)](#newspaper---printing-access-act--cap-206-)
+      - [undesirable publications act (cap 338)](#undesirable-publications-act--cap-338-)
+    + [Industry Self Regulation](#industry-self-regulation)
+      - [Industry self regulation codes of conduct](#industry-self-regulation-codes-of-conduct)
+  * [Conclusion](#conclusion)
 
 Overview
 ---

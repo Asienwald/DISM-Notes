@@ -1,29 +1,27 @@
----
-title: 'Lecture 03 AES'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Crypto
-:::
 
 Lecture 03 Advanced Encryption Standard (AES)
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 03 Advanced Encryption Standard (AES)](#lecture-03-advanced-encryption-standard--aes-)
+  * [AES Requirements](#aes-requirements)
+  * [AES Evaluation Criteria](#aes-evaluation-criteria)
+  * [AES Shortlist](#aes-shortlist)
+  * [AES Cipher - Rijndael](#aes-cipher---rijndael)
+    + [Rijndael Features](#rijndael-features)
+      - [Byte Substitution](#byte-substitution)
+      - [Shift Rows](#shift-rows)
+      - [Mix Columns](#mix-columns)
+      - [Add Round Key](#add-round-key)
+    + [AES Round](#aes-round)
+  * [AES Key Expansion](#aes-key-expansion)
+    + [Key Expansion Rationale](#key-expansion-rationale)
+  * [AES Decryption](#aes-decryption)
+  * [AES Implementation](#aes-implementation)
 
 
 AES Requirements

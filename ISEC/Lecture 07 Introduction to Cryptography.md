@@ -1,29 +1,42 @@
----
-title: 'Lecture 07 Introduction to Cryptography'
-disqus: hackmd
----
 
-:::info
-ST1004 Infocomm Security
-:::
 
 Lecture 07 Introduction to Cryptography
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 07 Introduction to Cryptography](#lecture-07-introduction-to-cryptography)
+  * [Table of Contents](#table-of-contents)
+  * [Cryptography](#cryptography)
+    + [What is Cryptography?](#what-is-cryptography-)
+      - [Definitions](#definitions)
+    + [Cryptography & Security](#cryptography---security)
+    + [Cryptography Constraints](#cryptography-constraints)
+  * [Cryptographic Algorithms](#cryptographic-algorithms)
+    + [Hash Algorithms](#hash-algorithms)
+      - [Example of Hashing - ATMs](#example-of-hashing---atms)
+      - [Types of Hash Algorithms](#types-of-hash-algorithms)
+    + [Symmetric Cryptographic Algorithms](#symmetric-cryptographic-algorithms)
+      - [Algorithms](#algorithms)
+    + [Asymmetric Cryptographic Algorithms](#asymmetric-cryptographic-algorithms)
+      - [Asymmetric Algorithms](#asymmetric-algorithms)
+  * [Cryptographic Attacks](#cryptographic-attacks)
+    + [Algorithm Attacks](#algorithm-attacks)
+      - [Known Ciphertext Attack](#known-ciphertext-attack)
+      - [Downgrade Attack](#downgrade-attack)
+      - [Using Deprecated Algorithms](#using-deprecated-algorithms)
+      - [Improper Implementation](#improper-implementation)
+    + [Collision Attacks](#collision-attacks)
+  * [Using Cryptography](#using-cryptography)
+    + [Software Encryption](#software-encryption)
+    + [Hardware Encryption](#hardware-encryption)
+      - [USB Device Encryption](#usb-device-encryption)
+      - [Self-Encrypting Drives (SEDs)](#self-encrypting-drives--seds-)
+      - [Trusted Platform Module (TPM)](#trusted-platform-module--tpm-)
+      - [Hardware Security Module (HSM)](#hardware-security-module--hsm-)
+  * [Chapter Summary](#chapter-summary)
 
 Cryptography
 ---

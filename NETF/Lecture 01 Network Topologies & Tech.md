@@ -1,29 +1,44 @@
----
-title: 'Lecture 01 Network Topologies & Tech'
-disqus: hackmd
----
 
-:::info
-ST1010 Network Fundamentals
-:::
 
 Topic 01 Network Topologies & Technologies
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Topic 01 Network Topologies & Technologies](#topic-01-network-topologies---technologies)
+  * [Physical Topologies](#physical-topologies)
+    + [Physical Bus Topology](#physical-bus-topology)
+    + [Physical Star Topology](#physical-star-topology)
+    + [Physical Ring Topology](#physical-ring-topology)
+    + [Point-to-Point Topology](#point-to-point-topology)
+    + [Mesh Topology](#mesh-topology)
+  * [Logical Topologies](#logical-topologies)
+  * [Network Technologies](#network-technologies)
+    + [Cables](#cables)
+    + [Baseband & Broadband Signaling](#baseband---broadband-signaling)
+  * [Ethernet Networks](#ethernet-networks)
+    + [Ethernet Addressing](#ethernet-addressing)
+    + [Ethernet Frames](#ethernet-frames)
+    + [Ethernet Media Access](#ethernet-media-access)
+  * [Collisions & Collision Domains](#collisions---collision-domains)
+    + [Ethernet Error Handling](#ethernet-error-handling)
+    + [Half-Duplex VS Full-Duplex Communication](#half-duplex-vs-full-duplex-communication)
+  * [Ethernet Standards](#ethernet-standards)
+  * [Wi-Fi](#wi-fi)
+    + [Modes of Operation](#modes-of-operation)
+    + [Wifi Channels & Frequencies](#wifi-channels---frequencies)
+    + [Wifi Antennas](#wifi-antennas)
+    + [Access Methods & Operation](#access-methods---operation)
+    + [Signal Characteristics](#signal-characteristics)
+    + [Wifi Standards](#wifi-standards)
+    + [Non-Overlapping Channel](#non-overlapping-channel)
+    + [Wifi Security](#wifi-security)
+  * [Token Ring Networks](#token-ring-networks)
+  * [Fiber Distributed Data Interface Tech](#fiber-distributed-data-interface-tech)
+  * [Summary](#summary)
 
 Physical Topologies
 ---

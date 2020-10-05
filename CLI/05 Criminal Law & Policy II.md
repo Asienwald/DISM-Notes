@@ -1,29 +1,33 @@
----
-title: '05 Criminal Law & Policy II'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 CLI Lecture 05 Criminal Law & Policy II
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [CLI Lecture 05 Criminal Law & Policy II](#cli-lecture-05-criminal-law---policy-ii)
+  * [Search, Seizure & Assistance](#search--seizure---assistance)
+    + [Police powers of search](#police-powers-of-search)
+    + [Power to access comp](#power-to-access-comp)
+    + [Power to access decryption info](#power-to-access-decryption-info)
+    + [Search & seizure of comp articles](#search---seizure-of-comp-articles)
+  * [Constitutional rights of accused](#constitutional-rights-of-accused)
+    + [Article 9 of Constitution](#article-9-of-constitution)
+      - [Liberty of person](#liberty-of-person)
+      - [Controversies](#controversies)
+    + [Statements](#statements)
+      - [Prosecution's Response](#prosecution-s-response)
+      - [Police Statements](#police-statements)
+    + [Charging Accused](#charging-accused)
+      - [Drafting Charge](#drafting-charge)
+      - [What's in a Charge](#what-s-in-a-charge)
+      - [General Rules](#general-rules)
+    + [Trial Procedure](#trial-procedure)
+      - [Summary Trials](#summary-trials)
+      - [High Court Trials](#high-court-trials)
+    + [Post Trail - Appeals](#post-trail---appeals)
 
 Search, Seizure & Assistance
 ---

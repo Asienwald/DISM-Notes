@@ -1,29 +1,31 @@
----
-title: 'Lecture 04 Modes of Operation'
-disqus: hackmd
----
-
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 04 Modes of Operation
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 04 Modes of Operation](#lecture-04-modes-of-operation)
+  * [The Problem](#the-problem)
+    + [Modes of Operation](#modes-of-operation)
+    + [Message Padding](#message-padding)
+  * [Block Cipher - Modes of Operation](#block-cipher---modes-of-operation)
+    + [Electronic Code Book (ECB)](#electronic-code-book--ecb-)
+      - [Limitations](#limitations)
+    + [Cipher Block Chaining (CBC)](#cipher-block-chaining--cbc-)
+      - [Features](#features)
+  * [Stream Ciphers](#stream-ciphers)
+    + [Structure](#structure)
+    + [Properties](#properties)
+    + [Cipher Feedback (CFB) Mode](#cipher-feedback--cfb--mode)
+      - [Advantages & Limitations](#advantages---limitations)
+    + [Output Feedback (OFB)](#output-feedback--ofb-)
+      - [Advantages & Limitations](#advantages---limitations-1)
+    + [OFB vs CFB](#ofb-vs-cfb)
+    + [Counter (CTR)](#counter--ctr-)
+      - [Advantages & Limitations](#advantages---limitations-2)
+  * [Summary](#summary)
 
 
 The Problem

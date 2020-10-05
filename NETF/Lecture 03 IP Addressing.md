@@ -1,29 +1,41 @@
----
-title: 'Lecture 03 IP Addressing'
-disqus: hackmd
----
 
-:::info
-ST1010 Network Fundamentals
-:::
 
 NETF Lecture 03 IP Addressing
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [NETF Lecture 03 IP Addressing](#netf-lecture-03-ip-addressing)
+  * [IPv4 Addressing](#ipv4-addressing)
+    + [Binary Math](#binary-math)
+    + [Converting Binary to Decimal](#converting-binary-to-decimal)
+  * [IP Addresses Classes](#ip-addresses-classes)
+    + [Address Class Summary](#address-class-summary)
+    + [Private IP Address](#private-ip-address)
+    + [Classless Interdomain Routing](#classless-interdomain-routing)
+  * [Broadcast Domains](#broadcast-domains)
+  * [Subnetting](#subnetting)
+    + [Calculating Subnet Mask](#calculating-subnet-mask)
+    + [Supernetting](#supernetting)
+  * [Configuring IPv4 Addresses](#configuring-ipv4-addresses)
+    + [Configuring Multiple IP Addresses](#configuring-multiple-ip-addresses)
+    + [Configuring Default Gateway](#configuring-default-gateway)
+  * [Network Address Translation](#network-address-translation)
+    + [Port Address Translation](#port-address-translation)
+  * [Internet Protocol Version 6](#internet-protocol-version-6)
+    + [IPv6 Address Structure](#ipv6-address-structure)
+    + [IPv6 Interface ID](#ipv6-interface-id)
+    + [IPv6 Autoconfiguration](#ipv6-autoconfiguration)
+    + [Transitioning from IPv4 to IPv6](#transitioning-from-ipv4-to-ipv6)
+  * [IPv6 Address Types](#ipv6-address-types)
+    + [IPv6 Unicast Addresses](#ipv6-unicast-addresses)
+    + [IPv6 Special-Purpose Addresses](#ipv6-special-purpose-addresses)
+    + [Multicast Addresses](#multicast-addresses)
+    + [Anycast Addresses](#anycast-addresses)
+  * [Chapter Summary](#chapter-summary)
 
 IPv4 Addressing
 ---

@@ -1,29 +1,41 @@
----
-title: 'Lecture 08 Organisational Security'
-disqus: hackmd
----
 
-:::info
-ST1004 Infocomm Security
-:::
 
 Lecture 08 Organisational Security
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 08 Organisational Security](#lecture-08-organisational-security)
+  * [Business Continuity](#business-continuity)
+    + [Business Continuity Planning (BCP)](#business-continuity-planning--bcp-)
+    + [Business Impact Analysis (BIA)](#business-impact-analysis--bia-)
+      - [Privacy Threshold Assessment](#privacy-threshold-assessment)
+    + [Disaster Recovery Plan (DRP)](#disaster-recovery-plan--drp-)
+      - [Features](#features)
+      - [Topics](#topics)
+      - [Testing](#testing)
+  * [Fault Tolerance Through Redundancy](#fault-tolerance-through-redundancy)
+    + [Servers](#servers)
+      - [Asymmetric Server Cluster](#asymmetric-server-cluster)
+      - [Symmetric Server Cluster](#symmetric-server-cluster)
+    + [Storage](#storage)
+    + [Networks](#networks)
+    + [Power](#power)
+    + [Recovery Sites](#recovery-sites)
+    + [Data](#data)
+      - [Types of Backups](#types-of-backups)
+      - [Off-Site Backups](#off-site-backups)
+  * [Environmental Controls](#environmental-controls)
+    + [Fire Suppression](#fire-suppression)
+    + [Electromagnetic Disruption Protection](#electromagnetic-disruption-protection)
+    + [HVAC](#hvac)
+  * [Incident Response](#incident-response)
+    + [Forensics](#forensics)
+      - [Forensic Procedures](#forensic-procedures)
+    + [Incident Response Plan (IRP)](#incident-response-plan--irp-)
+  * [Chapter Summary](#chapter-summary)
 
 
 Business Continuity

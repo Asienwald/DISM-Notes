@@ -1,29 +1,27 @@
----
-title: 'Lecture 02 DES'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 02 Data Encryption Standard (DES)
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 02 Data Encryption Standard (DES)](#lecture-02-data-encryption-standard--des-)
+  * [Block & Stream Ciphers](#block---stream-ciphers)
+    + [Block Cipher Principles](#block-cipher-principles)
+    + [Substitution-Permutation Networks](#substitution-permutation-networks)
+    + [Feistel Scheme](#feistel-scheme)
+  * [Data Encryption Standard (DES)](#data-encryption-standard--des-)
+    + [DES Design Controversy](#des-design-controversy)
+    + [Types of Permutation](#types-of-permutation)
+    + [Encryption Steps](#encryption-steps)
+    + [DES - Round Structure](#des---round-structure)
+    + [Substitution Boxes S](#substitution-boxes-s)
+    + [DES - Decryption](#des---decryption)
+    + [DES - Key Schedule](#des---key-schedule)
+    + [Avalanche Effect](#avalanche-effect)
+    + [DES - Considerations](#des---considerations)
 
 Block & Stream Ciphers
 ---

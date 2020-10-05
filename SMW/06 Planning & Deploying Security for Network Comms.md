@@ -1,29 +1,40 @@
----
-title: '06 Planning & Deploying Security for Network Comms'
-disqus: hackmd
----
 
-:::info
-ST2612 Secure Microsoft Windows
-:::
 
 06 Planning & Deploying Security for Network Comms
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [06 Planning & Deploying Security for Network Comms](#06-planning---deploying-security-for-network-comms)
+  * [IPSec Concepts](#ipsec-concepts)
+    + [IP Security Issues](#ip-security-issues)
+    + [IPSec Control Elements](#ipsec-control-elements)
+      - [IKE Module](#ike-module)
+    + [IP Security Implementation](#ip-security-implementation)
+    + [IPSec Trade-Offs](#ipsec-trade-offs)
+      - [Impacts](#impacts)
+  * [Planning an IPSec Deployment](#planning-an-ipsec-deployment)
+    + [Implementing IPSec Policies](#implementing-ipsec-policies)
+    + [5 Elements that make up a Rule](#5-elements-that-make-up-a-rule)
+      - [Connection Type](#connection-type)
+      - [Deciding which Mode to Use](#deciding-which-mode-to-use)
+        * [Example](#example)
+      - [IPSec Filters](#ipsec-filters)
+      - [Planning Auth Methods for IPSec](#planning-auth-methods-for-ipsec)
+    + [Encryption Levels](#encryption-levels)
+      - [Methods of Hashing](#methods-of-hashing)
+      - [Methods of Encryption](#methods-of-encryption)
+    + [IPSec Protocols](#ipsec-protocols)
+  * [How IPSec Works](#how-ipsec-works)
+  * [Deploying IPSec Policies](#deploying-ipsec-policies)
+    + [Using Local Policy Objects](#using-local-policy-objects)
+    + [Using Group Policy Objects](#using-group-policy-objects)
+    + [Understanding Default IPSec Policies](#understanding-default-ipsec-policies)
+    + [Understanding IPSec Policy Precedence](#understanding-ipsec-policy-precedence)
+  * [Summary](#summary)
 
 IPSec Concepts
 ---

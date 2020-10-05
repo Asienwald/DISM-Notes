@@ -1,29 +1,41 @@
----
-title: '07 Planning & Deploying Public Key Infrastructure & Secured Web Content Access Services'
-disqus: hackmd
----
 
-:::info
-ST2612 Secure Microsoft Windows
-:::
 
 07 Planning & Deploying Public Key Infrastructure & Secured Web Content Access Services
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
-
 
 ## Table of Contents
 
-[TOC]
+- [07 Planning & Deploying Public Key Infrastructure & Secured Web Content Access Services](#07-planning---deploying-public-key-infrastructure---secured-web-content-access-services)
+  * [Digital Certificates](#digital-certificates)
+    + [Defining Certificate Requirements](#defining-certificate-requirements)
+      - [Where are Certs Needed?](#where-are-certs-needed-)
+    + [What is a Digital Certificate?](#what-is-a-digital-certificate-)
+  * [Certificate Authority](#certificate-authority)
+    + [CA Hierarchies and Roles](#ca-hierarchies-and-roles)
+      - [Rooted Trust Model](#rooted-trust-model)
+      - [Cross-Certificates Model](#cross-certificates-model)
+    + [Using 3rd Party CAs](#using-3rd-party-cas)
+  * [Installing Certification Authority Role](#installing-certification-authority-role)
+    + [Selecting Cert Enrollment & Renewal Method](#selecting-cert-enrollment---renewal-method)
+      - [Methods for Automatic Enrollment](#methods-for-automatic-enrollment)
+      - [Obtaining Cert from Issuing CA](#obtaining-cert-from-issuing-ca)
+    + [Certificate Renewal](#certificate-renewal)
+    + [Configuring Cert Templates](#configuring-cert-templates)
+    + [Configuring Archival & Recovery of Keys](#configuring-archival---recovery-of-keys)
+    + [Deploying and Revoking Cert for Users, Computers and CAs](#deploying-and-revoking-cert-for-users--computers-and-cas)
+    + [Certificate Revocation Lists](#certificate-revocation-lists)
+      - [OCSP & OCSP Responder](#ocsp---ocsp-responder)
+  * [Secured Web Access](#secured-web-access)
+    + [Deploying and Managing SSL Certificates](#deploying-and-managing-ssl-certificates)
+    + [IIS Authentication Methods](#iis-authentication-methods)
+    + [HTTPS](#https)
+    + [Configuration of Web Server for SSL Certs](#configuration-of-web-server-for-ssl-certs)
+    + [Configuration of Client for SSL Certs](#configuration-of-client-for-ssl-certs)
+  * [Types of Certs](#types-of-certs)
+    + [Self-Issued Certs](#self-issued-certs)
+    + [Publicly Issued Certs](#publicly-issued-certs)
+  * [Summary](#summary)
 
 
 Digital Certificates

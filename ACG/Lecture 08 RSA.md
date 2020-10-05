@@ -1,29 +1,30 @@
----
-title: 'Lecture 08 RSA'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 08 RSA
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 08 RSA](#lecture-08-rsa)
+  * [Private-Key Crypto](#private-key-crypto)
+  * [Public-Key Crypto](#public-key-crypto)
+    + [Characteristics](#characteristics)
+    + [Cryptosystems](#cryptosystems)
+    + [Applications](#applications)
+    + [Security of Public Key Schemes](#security-of-public-key-schemes)
+  * [RSA](#rsa)
+    + [RSA Key Setup](#rsa-key-setup)
+      - [Example](#example)
+    + [RSA Encryption/Decryption](#rsa-encryption-decryption)
+      - [En/decryption Example](#en-decryption-example)
+    + [RSA Attacks](#rsa-attacks)
+      - [Factoring](#factoring)
+      - [Misuse](#misuse)
+      - [Chosen Ciphertext Attacks](#chosen-ciphertext-attacks)
+      - [Implementation](#implementation)
+    + [RSA Key Generation Considerations](#rsa-key-generation-considerations)
 
 
 

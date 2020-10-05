@@ -1,29 +1,41 @@
----
-title: '05 Planning & Deploying Patch Management'
-disqus: hackmd
----
 
-:::info
-ST2612 Securing Microsoft Windows
-:::
 
 Lecture 05 Planning & Deploying Patch Management
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 05 Planning & Deploying Patch Management](#lecture-05-planning---deploying-patch-management)
+  * [Planning the Deployment of Service Packs & Hotfixes](#planning-the-deployment-of-service-packs---hotfixes)
+  * [Managing Updates](#managing-updates)
+      - [Get updates from Microsoft Website Only](#get-updates-from-microsoft-website-only)
+    + [Microsoft Update and Automatic Updates](#microsoft-update-and-automatic-updates)
+    + [Windows Server Update Services (WSUS)](#windows-server-update-services--wsus-)
+    + [Microsoft Endpoint Manager](#microsoft-endpoint-manager)
+      - [Similar Alternatives](#similar-alternatives)
+    + [Additional Resources](#additional-resources)
+  * [WSUS](#wsus)
+    + [Advantages](#advantages)
+    + [Features](#features)
+    + [Operations](#operations)
+    + [Common Administration Tasks/Logging](#common-administration-tasks-logging)
+    + [Content Synchronisation](#content-synchronisation)
+    + [WSUS Policy Options for Clients](#wsus-policy-options-for-clients)
+    + [WSUS Computer Groups](#wsus-computer-groups)
+    + [Patch Management Process - 8 step](#patch-management-process---8-step)
+  * [Managing Updates through 5 Stages](#managing-updates-through-5-stages)
+    + [Stage 1 - Receive Microsoft Security Release Communications](#stage-1---receive-microsoft-security-release-communications)
+    + [Stage 2 - Evaluate Risk](#stage-2---evaluate-risk)
+      - [Severity Ratings](#severity-ratings)
+    + [Stage 3 - Evaluate Mitigation](#stage-3---evaluate-mitigation)
+      - [Examples of Mitigation Factors from Microsoft Security Bulletin](#examples-of-mitigation-factors-from-microsoft-security-bulletin)
+    + [Stage 4 - Deploy Updates](#stage-4---deploy-updates)
+    + [Step 5 - Monitor Systems](#step-5---monitor-systems)
+    + [Post-Deployment Review](#post-deployment-review)
+  * [Common Approaches to Fix Windows Update Errors](#common-approaches-to-fix-windows-update-errors)
 
 Planning the Deployment of Service Packs & Hotfixes
 ---

@@ -1,29 +1,37 @@
----
-title: 'Lecture 07 PDPA'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 07 Personal Data Protection Act
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 07 Personal Data Protection Act](#lecture-07-personal-data-protection-act)
+  * [Background](#background)
+  * [Data Privacy & Personal Data](#data-privacy---personal-data)
+    + [Data Privacy](#data-privacy)
+    + [Personal Data](#personal-data)
+      - [Examples](#examples)
+      - [NRIC Collection Rules](#nric-collection-rules)
+  * [Personal Data Protection](#personal-data-protection)
+      - [PDPC's Decision](#pdpc-s-decision)
+    + [PDPA's Coverage](#pdpa-s-coverage)
+      - [Doesn't Cover](#doesn-t-cover)
+    + [Key Concepts](#key-concepts)
+    + [Overview of Data Protection Regime](#overview-of-data-protection-regime)
+      - [Discussion](#discussion)
+    + [Case Studies](#case-studies)
+    + [Disposal of Data in Electronic Media](#disposal-of-data-in-electronic-media)
+    + [Points to Note](#points-to-note)
+      - [Examples](#examples-1)
+    + [Do Not Call Registry](#do-not-call-registry)
+      - [Isit Effective?](#isit-effective-)
+  * [More PDPA Cancer](#more-pdpa-cancer)
+    + [Part IV - Collection, use & disclosure of personal data](#part-iv---collection--use---disclosure-of-personal-data)
+    + [Part V - Access to & correction of personal data](#part-v---access-to---correction-of-personal-data)
+    + [Part VI - Care of personal data](#part-vi---care-of-personal-data)
+    + [Part IX - Do not call registry](#part-ix---do-not-call-registry)
 
 Background
 ---

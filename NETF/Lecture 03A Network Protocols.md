@@ -1,29 +1,51 @@
----
-title: 'Lecture 03A Network Protocols'
-disqus: hackmd
----
 
-:::info
-ST1010 Network Fundamentals
-:::
 
 Lecture 03A Network Protocols
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 03A Network Protocols](#lecture-03a-network-protocols)
+  * [Network Protocols](#network-protocols)
+    + [OSI Model & TCP Stack](#osi-model---tcp-stack)
+      - [Network Layer 3](#network-layer-3)
+      - [Transport Layer 4](#transport-layer-4)
+    + [TCP/IP's Layered Architecture](#tcp-ip-s-layered-architecture)
+      - [Headers of Each Layer](#headers-of-each-layer)
+    + [MAC Address](#mac-address)
+    + [Ethernet Frame](#ethernet-frame)
+    + [ICMP](#icmp)
+      - [ICMP Payload](#icmp-payload)
+      - [Ping Signatures](#ping-signatures)
+    + [Time-to-Live (TTL)](#time-to-live--ttl-)
+      - [Default TTLs](#default-ttls)
+    + [Hypertext Transfer Protocol (HTTP)](#hypertext-transfer-protocol--http-)
+      - [HTTP Signatures](#http-signatures)
+      - [HTTPS](#https)
+    + [File Transfer Protocol (FTP)](#file-transfer-protocol--ftp-)
+      - [FTP Signatures](#ftp-signatures)
+  * [IP Addressing](#ip-addressing)
+    + [IPv4 & IPv6](#ipv4---ipv6)
+    + [IP Classes](#ip-classes)
+    + [Subnet Mask](#subnet-mask)
+      - [Classless Interdoamin Routing (CIDR) Notation](#classless-interdoamin-routing--cidr--notation)
+    + [Loopback Address](#loopback-address)
+  * [Transport Layer 4 - TCP & UDP](#transport-layer-4---tcp---udp)
+      - [TCP Packet](#tcp-packet)
+      - [UDP Packet](#udp-packet)
+    + [TCP Flags](#tcp-flags)
+    + [UDP Headers](#udp-headers)
+    + [TCP 3-way Handshake](#tcp-3-way-handshake)
+    + [TCP SEQ & ACK Numbers](#tcp-seq---ack-numbers)
+    + [TCP & UDP Ports](#tcp---udp-ports)
+  * [Netstat](#netstat)
+      - [Sample Output](#sample-output)
+    + [Columns](#columns)
+    + [Common States](#common-states)
+  * [Summary](#summary)
 
 
 Network Protocols

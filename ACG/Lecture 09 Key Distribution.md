@@ -1,29 +1,23 @@
----
-title: 'Lecture 09 Key Distribution'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 09 Key Distribution
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
-
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 09 Key Distribution](#lecture-09-key-distribution)
+  * [Distribution of Public Keys](#distribution-of-public-keys)
+    + [Public Announcement](#public-announcement)
+    + [Publicly Available Directory](#publicly-available-directory)
+    + [Public-key Authority](#public-key-authority)
+    + [Public-key Certificate](#public-key-certificate)
+      - [Certificate](#certificate)
+    + [Key Exchange](#key-exchange)
+  * [Diffie-Hellman Key Exchange](#diffie-hellman-key-exchange)
+    + [DH Setup](#dh-setup)
+      - [Example](#example)
+    + [Key Exchange Protocols](#key-exchange-protocols)
 
 Distribution of Public Keys
 ---

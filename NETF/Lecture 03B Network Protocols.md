@@ -1,29 +1,36 @@
----
-title: 'Lecture 03B Network Protocols'
-disqus: hackmd
----
 
-:::info
-ST1010 Networking Fundamentals
-:::
 
 Lecture 03B Network Protocols
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 03B Network Protocols](#lecture-03b-network-protocols)
+  * [Telnet](#telnet)
+  * [Secure Shell (SSH)](#secure-shell--ssh-)
+  * [Email Protocols](#email-protocols)
+    + [Simple Mail Transport Protocol (SMTP)](#simple-mail-transport-protocol--smtp-)
+    + [Post Office Protocol (POP3)](#post-office-protocol--pop3-)
+    + [Internet Message Access Protocol (IMAP4)](#internet-message-access-protocol--imap4-)
+  * [Address Resolution Protocol (ARP)](#address-resolution-protocol--arp-)
+      - [To Find MAC Addr of IP Addr](#to-find-mac-addr-of-ip-addr)
+      - [Find MAC Addr on Different Network](#find-mac-addr-on-different-network)
+    + [ARP Poisoning/Spoofing](#arp-poisoning-spoofing)
+      - [Normal Scenario](#normal-scenario)
+      - [Attack Scenario](#attack-scenario)
+  * [Domain Name System (DNS)](#domain-name-system--dns-)
+      - [How it Works](#how-it-works)
+    + [DNS Poisoning/Spoofing](#dns-poisoning-spoofing)
+      - [Example](#example)
+  * [Simple Network Management Protocol (SNMP)](#simple-network-management-protocol--snmp-)
+    + [Ping Sweeps](#ping-sweeps)
+    + [Basic Port Scan](#basic-port-scan)
+  * [Banner Grabbing](#banner-grabbing)
+  * [Summary](#summary)
+
 
 Telnet
 ---

@@ -1,29 +1,59 @@
----
-title: '03 Account Manager & Managing Resource Access'
-disqus: hackmd
----
 
-:::info
-ST2612 Secure Microsoft Windows
-:::
 
 Lecture 03 Account Manager & Managing Resource Access
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 03 Account Manager & Managing Resource Access](#lecture-03-account-manager---managing-resource-access)
+  * [User Account Management](#user-account-management)
+    + [Creating Accounts when AD not Installed](#creating-accounts-when-ad-not-installed)
+    + [Creating Accounts when AD Installed](#creating-accounts-when-ad-installed)
+    + [Disabling, Enabling & Renaming Accounts](#disabling--enabling---renaming-accounts)
+    + [Moving an Account](#moving-an-account)
+    + [Reset Password](#reset-password)
+    + [Deleting Account](#deleting-account)
+  * [Security Group Management](#security-group-management)
+    + [Properties of Groups](#properties-of-groups)
+    + [Organisational Units (OU) VS Security Membership](#organisational-units--ou--vs-security-membership)
+    + [Implementing Local Groups](#implementing-local-groups)
+    + [Implementing Domain Local Groups](#implementing-domain-local-groups)
+    + [Implmenting Global Groups](#implmenting-global-groups)
+    + [Implementing Universal Groups](#implementing-universal-groups)
+    + [Guidelines to Simplify Plan to use Groups](#guidelines-to-simplify-plan-to-use-groups)
+    + [Implementing Security Groups & Resources Permission](#implementing-security-groups---resources-permission)
+      - [Example](#example)
+  * [Managing Folder & File Security](#managing-folder---file-security)
+    + [Configuring Attributes](#configuring-attributes)
+      - [Archive Attribute](#archive-attribute)
+      - [Index Attribute VS Windows Search Service](#index-attribute-vs-windows-search-service)
+      - [Compress Attribute](#compress-attribute)
+      - [Encrypt Attribute](#encrypt-attribute)
+    + [Configuring Permissions](#configuring-permissions)
+      - [Best Practices Guidelines by Microsoft](#best-practices-guidelines-by-microsoft)
+    + [Configuring Auditing](#configuring-auditing)
+    + [Configuring Ownership](#configuring-ownership)
+  * [Configuring Shared Folders/Files Permissions](#configuring-shared-folders-files-permissions)
+    + [Enabling Sharing](#enabling-sharing)
+    + [Configuring Sharing through File Properties](#configuring-sharing-through-file-properties)
+    + [Configuring Sharing through Server Manager](#configuring-sharing-through-server-manager)
+    + [Publishing Shared Object in Active Directory](#publishing-shared-object-in-active-directory)
+    + [Combining NTFS & Shared Folder Permissions](#combining-ntfs---shared-folder-permissions)
+      - [Example](#example-1)
+  * [Troubleshooting Security Conflict](#troubleshooting-security-conflict)
+  * [Important Features in Windows Server 2016 Active Directory](#important-features-in-windows-server-2016-active-directory)
+    + [Restart Capability](#restart-capability)
+    + [Read-Only Domain Controller (RODC)](#read-only-domain-controller--rodc-)
+    + [Cloning Domain Controllers](#cloning-domain-controllers)
+    + [Fine-Grained Password Policy Enhancement](#fine-grained-password-policy-enhancement)
+  * [Protected Users Global Group](#protected-users-global-group)
+      - [Security Restrictions](#security-restrictions)
+  * [Implementing User Profiles](#implementing-user-profiles)
+    + [User Profile Advantages](#user-profile-advantages)
+    + [Setting Up Profile](#setting-up-profile)
+  * [Summary](#summary)
 
 User Account Management
 ---

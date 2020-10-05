@@ -1,29 +1,26 @@
----
-title: 'Lecture 09 Evidence Analysis II'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 09 Evidence Analysis II
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 09 Evidence Analysis II](#lecture-09-evidence-analysis-ii)
+  * [Computer Output Evidence](#computer-output-evidence)
+      - [Sections 35 & 36 of Evidence Act](#sections-35---36-of-evidence-act)
+    + [Presumptions in Relation to Electronic Records](#presumptions-in-relation-to-electronic-records)
+      - [Example - Telemedia Pacific Group Ltd Credit Agricole](#example---telemedia-pacific-group-ltd-credit-agricole)
+  * [Processes for Validating Electronic Record are Relevant Facts](#processes-for-validating-electronic-record-are-relevant-facts)
+    + [Approved Process](#approved-process)
+    + [Rules for Filing & Receiving Evidence in Court using InfoTech](#rules-for-filing---receiving-evidence-in-court-using-infotech)
+    + [Sources of Evidence](#sources-of-evidence)
+    + [Mutable Evidence](#mutable-evidence)
+    + [Chain of Custody](#chain-of-custody)
+  * [Obtaining Computer Related Evidence](#obtaining-computer-related-evidence)
+    + [Evidence Preservation](#evidence-preservation)
+  * [Best Evidence Rule](#best-evidence-rule)
 
 
 Computer Output Evidence

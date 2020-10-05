@@ -1,29 +1,46 @@
----
-title: 'Lecture 04 Network Hardware in Depth'
-disqus: hackmd
----
 
-:::info
-ST1010 Network Fundamentals
-:::
 
 Lecture 04 Network Hardware in Depth
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 04 Network Hardware in Depth](#lecture-04-network-hardware-in-depth)
+  * [Network Switches in Depth](#network-switches-in-depth)
+    + [Port Modes of Operation](#port-modes-of-operation)
+    + [Creating Switch Table](#creating-switch-table)
+    + [Frame Forwarding Methods](#frame-forwarding-methods)
+    + [Multilayer Switches](#multilayer-switches)
+  * [Advanced Switch Features](#advanced-switch-features)
+    + [Multicast Processing](#multicast-processing)
+    + [Spanning Tree Protocol (STP)](#spanning-tree-protocol--stp-)
+      - [Side Effects of STP](#side-effects-of-stp)
+      - [Rapid Spanning Tree Protocol (RSTP)](#rapid-spanning-tree-protocol--rstp-)
+    + [Virtual Local Area Networks (VLANs)](#virtual-local-area-networks--vlans-)
+      - [VLAN Trunks](#vlan-trunks)
+      - [Consideration Factors](#consideration-factors)
+    + [Switch Port Security](#switch-port-security)
+  * [Routers in Depth](#routers-in-depth)
+    + [Router Interfaces](#router-interfaces)
+    + [Routing Tables](#routing-tables)
+    + [Routing Protocols](#routing-protocols)
+      - [Distance-Vector Protocols](#distance-vector-protocols)
+      - [Link-State Protocols](#link-state-protocols)
+      - [Routing Protocols Considerations](#routing-protocols-considerations)
+    + [Access Control Lists](#access-control-lists)
+  * [Wireless Access Points (WAP) in Depth](#wireless-access-points--wap--in-depth)
+    + [Basic Wireless Settings](#basic-wireless-settings)
+    + [Wireless Security Options](#wireless-security-options)
+    + [Advanced Wireless Settings](#advanced-wireless-settings)
+  * [NIC in Depth](#nic-in-depth)
+    + [Advanced Features](#advanced-features)
+      - [Hardware Enhancement Options](#hardware-enhancement-options)
+  * [Firewall](#firewall)
+    + [Router VS Firewall](#router-vs-firewall)
+    + [Hardware VS Software Firewall](#hardware-vs-software-firewall)
+  * [Summary](#summary)
 
 Network Switches in Depth
 ---

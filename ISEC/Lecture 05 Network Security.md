@@ -1,29 +1,50 @@
----
-title: 'Lecture 05 Network Security'
-disqus: hackmd
----
 
-:::info
-ST1004 Infocomm Security
-:::
 
 Lecture 05 Network Security
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 05 Network Security](#lecture-05-network-security)
+  * [Networking-Based Attacks](#networking-based-attacks)
+  * [Interception Attacks](#interception-attacks)
+    + [Man-in-the-Middle (MITM)](#man-in-the-middle--mitm-)
+    + [Man-in-the-Browser (MITB)](#man-in-the-browser--mitb-)
+    + [Replay](#replay)
+  * [Poisoning Attacks](#poisoning-attacks)
+    + [ARP Poisoning](#arp-poisoning)
+    + [DNS Poisoning](#dns-poisoning)
+    + [Privilege Escalation](#privilege-escalation)
+  * [Server Attacks](#server-attacks)
+    + [Denial of Service (DoS)](#denial-of-service--dos-)
+      - [Smurf Attack](#smurf-attack)
+      - [DNS amplification atk](#dns-amplification-atk)
+      - [SYS flood atk](#sys-flood-atk)
+    + [Web Server Application Attacks](#web-server-application-attacks)
+      - [Zero-day Attack](#zero-day-attack)
+      - [Cross-site scripting (XSS) Attack](#cross-site-scripting--xss--attack)
+      - [Cross-site request forgery (XSRF)](#cross-site-request-forgery--xsrf-)
+      - [Injection Attack](#injection-attack)
+    + [Hijacking Attacks](#hijacking-attacks)
+      - [Session hijacking](#session-hijacking)
+      - [URL hijacking](#url-hijacking)
+      - [Domain hijacking](#domain-hijacking)
+      - [Clickjacking](#clickjacking)
+    + [Overflow Attacks](#overflow-attacks)
+      - [Buffer overflow](#buffer-overflow)
+      - [Integer overflow](#integer-overflow)
+    + [Advertising Attacks](#advertising-attacks)
+      - [Malvertising](#malvertising)
+      - [Ad fraud](#ad-fraud)
+    + [Browser Vulnerabilities](#browser-vulnerabilities)
+      - [Scripting code](#scripting-code)
+      - [Extensions](#extensions)
+      - [Plug-ins](#plug-ins)
+      - [Add-ons](#add-ons)
+  * [Chapter Summary](#chapter-summary)
 
 Networking-Based Attacks
 ---

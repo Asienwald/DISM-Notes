@@ -1,29 +1,30 @@
----
-title: '04 Criminal Law & Policy I'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 04 Criminal Law & Policy I
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 04 Criminal Law & Policy I](#lecture-04-criminal-law---policy-i)
+  * [Punishments](#punishments)
+    + [Functions & objectives of punishment](#functions---objectives-of-punishment)
+      - [Retribution](#retribution)
+      - [Deterrence](#deterrence)
+      - [Prevention](#prevention)
+      - [Reformation & Rehabilitation](#reformation---rehabilitation)
+  * [Crime](#crime)
+    + [Substantive criminal law](#substantive-criminal-law)
+    + [Procedural criminal law](#procedural-criminal-law)
+    + [Sources of criminal law](#sources-of-criminal-law)
+  * [The Penal Code](#the-penal-code)
+  * [The Criminal Procedure Code](#the-criminal-procedure-code)
+    + [Police Officer](#police-officer)
+    + [Arrestable Offences](#arrestable-offences)
+    + [Non-Arrestable Offence](#non-arrestable-offence)
+    + [Bailable & Non-bailable offences](#bailable---non-bailable-offences)
+    + [Updates to CPC](#updates-to-cpc)
 
 Punishments
 ---

@@ -1,25 +1,45 @@
----
-title: 'Lecture 01 Intro to Security'
-disqus: hackmd
----
+
 
 Lecture 01 Intro to Security & Challenges
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 01 Intro to Security & Challenges](#lecture-01-intro-to-security---challenges)
+  * [Attacks](#attacks)
+    + [Examples of recent attacks](#examples-of-recent-attacks)
+    + [Reasons for successful attacks](#reasons-for-successful-attacks)
+    + [Difficulties in defending against attacks](#difficulties-in-defending-against-attacks)
+  * [Defining Information Security](#defining-information-security)
+    + [Information Security](#information-security)
+    + [3 types of info protection (CIA)](#3-types-of-info-protection--cia-)
+    + [Info security layers](#info-security-layers)
+    + [Terminologies](#terminologies)
+    + [Understanding the Importance of InfoSec](#understanding-the-importance-of-infosec)
+  * [During Attacks](#during-attacks)
+    + [Avoiding Legal Consequences](#avoiding-legal-consequences)
+    + [Maintaining Productivity](#maintaining-productivity)
+  * [Cyberterrorism](#cyberterrorism)
+    + [Foiling Cyberterrorism](#foiling-cyberterrorism)
+  * [Types of Attackers](#types-of-attackers)
+    + [Threat Actors](#threat-actors)
+    + [Script Kiddies](#script-kiddies)
+    + [Hactivists](#hactivists)
+    + [Nation State Actor](#nation-state-actor)
+    + [Advanced Persistent Threat](#advanced-persistent-threat)
+    + [Insiders](#insiders)
+    + [Others](#others)
+  * [Defending Against Attacks](#defending-against-attacks)
+    + [Layering](#layering)
+    + [Limiting](#limiting)
+    + [Diversity](#diversity)
+    + [Obscurity](#obscurity)
+    + [Simplicity](#simplicity)
+  * [Frameworks & Reference Architectures](#frameworks---reference-architectures)
+  * [Summary](#summary)
 
 Attacks
 ---

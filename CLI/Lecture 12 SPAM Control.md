@@ -1,29 +1,37 @@
----
-title: 'Lecture 12 SPAM Control'
-disqus: hackmd
----
 
-:::info
-ST2502 Computer Law & Investigation
-:::
 
 Lecture 12 SPAM Control
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
+
 
 
 ## Table of Contents
 
-[TOC]
+- [Lecture 12 SPAM Control](#lecture-12-spam-control)
+  * [Introduction to Spam](#introduction-to-spam)
+  * [IDA-AGC Proposed Legal Framework on SPAM](#ida-agc-proposed-legal-framework-on-spam)
+    + [Opt-Out System](#opt-out-system)
+      - [Opt-Out Regime](#opt-out-regime)
+      - [Requirements - Labelling Standards](#requirements---labelling-standards)
+      - [Advantages](#advantages)
+      - [Minimum Standards](#minimum-standards)
+    + [Opt-In System](#opt-in-system)
+      - [Diff between Opt-In & Opt-Out](#diff-between-opt-in---opt-out)
+  * [IDA-AGC Proposal](#ida-agc-proposal)
+    + [Application of Legislation](#application-of-legislation)
+    + [Spam Control Act 2007](#spam-control-act-2007)
+    + [SG Proposed Legislation - Legal Actions & Obligations](#sg-proposed-legislation---legal-actions---obligations)
+      - [Legal Actions - Role of ISP](#legal-actions---role-of-isp)
+      - [Obligations](#obligations)
+  * [Multi-Pronged Approach](#multi-pronged-approach)
+    + [Prevention Methods](#prevention-methods)
+    + [Requisite Knowledge](#requisite-knowledge)
+    + [Pro-Business & Pro-Consumer Environment](#pro-business---pro-consumer-environment)
+      - [Fostering Pro-Consumer Env](#fostering-pro-consumer-env)
+      - [Use of Technology](#use-of-technology)
+    + [Industry Self-Regulation](#industry-self-regulation)
+    + [International Cooperation](#international-cooperation)
 
 Introduction to Spam
 ---
