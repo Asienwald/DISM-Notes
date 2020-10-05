@@ -1,28 +1,33 @@
----
-title: 'Lecture 01 Classical Cyphers'
-disqus: hackmd
----
 
-:::info
-ST2504 Applied Cryptography
-:::
 
 Lecture 01 Classical Cyphers
 ===
 
-<style>
-img{
-/*     border: 2px solid red; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: block;
-}
-</style>
-
-
-## Table of Contents
-[TOC]
+Table of Contents
+---
+- [Lecture 01 Classical Cyphers](#lecture-01-classical-cyphers)
+  * [Terminology](#terminology)
+    + [Cryptography](#cryptography)
+    + [Caesar Cipher](#caesar-cipher)
+  * [Symmetric Encryption](#symmetric-encryption)
+    + [Symmetric Encryption](#symmetric-encryption-1)
+    + [Requirements](#requirements)
+  * [Cryptanalysis](#cryptanalysis)
+    + [Attacks Terminology](#attacks-terminology)
+    + [Cryptanalytic Attacks](#cryptanalytic-attacks)
+    + [Brute Force Search](#brute-force-search)
+    + [One-Time Pad](#one-time-pad)
+    + [Steganography](#steganography)
+  * [Classical Ciphers - Substitution Ciphers](#classical-ciphers---substitution-ciphers)
+    + [Monoalphabetic Cipher](#monoalphabetic-cipher)
+    + [Playfair Cipher](#playfair-cipher)
+  * [Polyalphabetic Ciphers](#polyalphabetic-ciphers)
+    + [Vignere Cipher](#vignere-cipher)
+  * [Classical Ciphers - Transposition Ciphers](#classical-ciphers---transposition-ciphers)
+    + [Rail Fence Cipher](#rail-fence-cipher)
+    + [Row Transposition Ciphers](#row-transposition-ciphers)
+    + [Rotor Machines](#rotor-machines)
+    + [Product Ciphers](#product-ciphers)
 
 Terminology
 ---
