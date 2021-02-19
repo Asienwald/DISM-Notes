@@ -23,5 +23,9 @@ Repo will get updated after every sem after I finish each module
 - [ST2612 Securing Microsoft Windows](SMW)
 - [ST0503 Back-End Web Development](BED)
 
+### Sem2 Modules
+- [ST2514 Digital Forensics and Investigation](DFI)
+- [ST2515 Secure Coding](SC)
+
 ### Year-long Modules
 - [ST251Z Ethical Hacking and Defenses (Uncompleted)](EHD)
